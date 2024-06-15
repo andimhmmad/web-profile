@@ -2436,6 +2436,16 @@ textarea {
   font-weight: var(--tg-fw-bold);
   margin-left: 6px;
 }
+.tgmenu__main-menu li.menu-item-has-not-children .dropdown-btn {
+  display: none;
+}
+.tgmenu__main-menu li.menu-item-has-not-children > a::after {
+  display: block;
+  font-family: var(--tg-icon-font-family);
+  font-size: 12px;
+  font-weight: var(--tg-fw-bold);
+  margin-left: 6px;
+}
 .tgmenu__search {
   margin-inline-end: 25px;
 }
